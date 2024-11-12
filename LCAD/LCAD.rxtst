@@ -3,10 +3,42 @@
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testmodule
+			id="0f66d544-56df-42d8-9726-909bfd3b1ec1"
+			name="CloseAUT"
+			ref="f74f8bb3-17e7-403e-b004-d68b676fa825"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="4edb19ac-f89d-448f-9092-bb46aa068f82"
+					variableid="34d3bbc5-1303-4e43-8356-0ca4c0bf36a0"
+					variablename="CloseAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="10c3f155-22ae-469c-92a2-4be343347b7d"
 			name="CreateReservation"
 			ref="87f31820-c612-4487-bfa2-1ea018621d6b"
 			type="Recording">
+			</testmodule>
+			<teardown
+			id="1fe7f639-04c3-46eb-8bea-ffea6ec74553"
+			name="teardown">
+			</teardown>
+			<testmodule
+			id="2d3a8197-de7f-4697-a309-591c6b617e1d"
+			name="StartAUT"
+			ref="d9683444-834c-4353-9666-428228c90cf1"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="4edb19ac-f89d-448f-9092-bb46aa068f82"
+					variableid="5cbf9c53-e445-4b27-b49b-2007370c6bc3"
+					variablename="StartAutProcessIDVar">
+					</var>
+				</databinding>
 			</testmodule>
 			<teardown
 			id="42b3f441-b617-45e1-bfca-9aa43617a677"
@@ -24,6 +56,22 @@
 					</param>
 				</parameters>
 			</testcase>
+			<testcase
+			id="6e7b02e4-8b56-44b4-9515-ae5bf94aaece"
+			name="TestCase_2">
+			</testcase>
+			<testmodule
+			id="6f8e3912-ce06-4846-962e-3ecba5ee1994"
+			name="SelectCallCenter"
+			ref="38230864-b639-441a-815b-e1853b6b50c4"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="72faf84f-dedc-4c19-9d42-7a8448da8516"
+			name="UserAuthentication"
+			ref="a234d946-8019-4630-b201-6611febf6856"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="7b557e3f-3bce-47d7-813f-4aada9b37a6f"
 			name="StartAUT"
@@ -38,6 +86,10 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<setup
+			id="8862e298-834f-4a4e-b095-d5803d0c0b70"
+			name="setup">
+			</setup>
 			<setup
 			id="8c4335c2-4cc8-4c12-837e-441539afb882"
 			name="setup">
@@ -84,6 +136,12 @@
 			id="b4bfb436-687d-4e86-b3e2-a14c931f6617"
 			name="TestCase">
 			</testcase>
+			<testmodule
+			id="d319a071-631a-4c1e-96d4-ca601df46d91"
+			name="CreateReservation"
+			ref="87f31820-c612-4487-bfa2-1ea018621d6b"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="e74def7b-7649-46e6-a0ee-0f2d6ef947da"
 			name="SelectCallCenter"
@@ -144,6 +202,38 @@
 							</testmodule>
 						</teardown>
 					</testcase>
+					<testcase
+					id="6e7b02e4-8b56-44b4-9515-ae5bf94aaece"
+					name="TestCase_2">
+						<setup
+						id="8862e298-834f-4a4e-b095-d5803d0c0b70"
+						name="setup">
+							<testmodule
+							id="2d3a8197-de7f-4697-a309-591c6b617e1d"
+							name="StartAUT">
+							</testmodule>
+						</setup>
+						<testmodule
+						id="72faf84f-dedc-4c19-9d42-7a8448da8516"
+						name="UserAuthentication">
+						</testmodule>
+						<testmodule
+						id="6f8e3912-ce06-4846-962e-3ecba5ee1994"
+						name="SelectCallCenter">
+						</testmodule>
+						<testmodule
+						id="d319a071-631a-4c1e-96d4-ca601df46d91"
+						name="CreateReservation">
+						</testmodule>
+						<teardown
+						id="1fe7f639-04c3-46eb-8bea-ffea6ec74553"
+						name="teardown">
+							<testmodule
+							id="0f66d544-56df-42d8-9726-909bfd3b1ec1"
+							name="CloseAUT">
+							</testmodule>
+						</teardown>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -156,6 +246,9 @@
 		name="TestRun">
 			<testcontainer
 			id="4edb19ac-f89d-448f-9092-bb46aa068f82">
+			</testcontainer>
+			<testcontainer
+			id="6e7b02e4-8b56-44b4-9515-ae5bf94aaece">
 			</testcontainer>
 			<testcontainer
 			id="b4bfb436-687d-4e86-b3e2-a14c931f6617">

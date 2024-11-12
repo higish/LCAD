@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="f74f8bb3-17e7-403e-b004-d68b676fa825"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="LCAD.Recordings">
+	</codegen>
+	<variables>
+		<var
+		id="34d3bbc5-1303-4e43-8356-0ca4c0bf36a0"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="c6f20dd9-5c95-4c33-917b-f6cb0c470423">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="b10e19a6-8cbe-4f86-823b-b6b52ad93c75"
+	name="LCADRepository"
+	relativepath="..\LCADRepository.rxrep">
+		<codegen
+		classname="LCADRepository"
+		namespace="LCAD">
+		</codegen>
+		<rootfolder
+		id="39f306a8-e45c-4e69-8c5d-bcf88565fcc3"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
