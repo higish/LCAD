@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="LCAD"
+      id="a7d69f5b-3ba5-47d7-9391-69e527856833"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="LCAD"
+      id="a7d69f5b-3ba5-47d7-9391-69e527856833"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

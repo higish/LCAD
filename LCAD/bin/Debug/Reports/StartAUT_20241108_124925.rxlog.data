@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="13.68s"
+		durationms="13679"
+		type="root"
+		rid="108fc6edc10a5c50"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="agayurzoda"
+		rxversion="11.5.1.0"
+		host="LXATL0DRDPD012"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1728x989"
+		timestamp="11/8/2024 12:49:36 PM"
+		timestampiso="2024-11-08T17:49:36"
+		endtime="11/8/2024 12:49:50 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.668"
+			timeRelativeToTestModuleStartTime="00:13.668"
+			timeWallClock="12:49:50"
+			time="00:13.668"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.832"
+			timeRelativeToTestModuleStartTime="00:13.832"
+			timeWallClock="12:49:50"
+			time="00:13.832"
+			level="Failure"
+			category="Module"
+			errimg="images_StartAUT_5cd9835b\StartAUT_5cd9835b_20f61318_trace.jpg"
+			errthumb="images_StartAUT_5cd9835b\StartAUT_5cd9835b_20f61318_trace_thumb.jpg">
+			<message>
+				Thread was being aborted.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.ElementEngine.ApplyGlueRules(Element element, GlueRuleExecutionStateImpl state, Boolean includeRemotes)
+   at Ranorex.Core.ElementEngine.ApplyReplaceGlueRulesOnSingleRecentlyInsertedElement(Element parentElement, GlueRuleExecutionStateImpl state, GlueRuleExecutionStateImpl replaceState, Element recentlyInsertedElement)
+   at Ranorex.Core.ElementEngine.ApplyReplaceGlueRulesOnRecentlyInserted(Element element, GlueRuleExecutionStateImpl state)
+   at Ranorex.Core.ElementEngine.ApplyGlueRules(Element element, GlueRuleExecutionStateImpl state, Boolean includeRemotes)
+   at Ranorex.Core.ElementEngine.ApplyGlueRules(Element element, Boolean includeRemotes)
+   at Ranorex.Core.ElementEngine.GetRootElement(Boolean includeRemotes)
+   at Ranorex.Core.ElementEngine.get_RootElement()
+   at Ranorex.Core.Testing.TestModuleRunner.RunStandalone(ITestModule module, String reportFilename, Boolean generateReport, String standaloneModuleName, CaseInsensitiveString guid)"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>

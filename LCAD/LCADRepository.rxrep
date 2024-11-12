@@ -1,0 +1,308 @@
+﻿<repository
+id="b10e19a6-8cbe-4f86-823b-b6b52ad93c75"
+name="LCADRepository">
+	<codegen
+	classname="LCADRepository"
+	namespace="LCAD">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="39f306a8-e45c-4e69-8c5d-bcf88565fcc3"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow,delphiwindow"
+		capname="form"
+		id="62b13266-888a-46dd-bde6-d05e93f5ac79"
+		isrooted="True"
+		name="LogistiCADLogin"
+		refpath="/form[@name='PasswordDialogForm']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,nativewindow,delphielement"
+			capname="text"
+			id="335cec5f-2ae2-49f2-9eb1-52783f32a457"
+			name="EUserID"
+			refimgid="1328d595-6838-40ee-9bc4-03832846efda"
+			refpath="/form[@name='PasswordDialogForm']/text[@name='eUserID']"
+			robustPath="/form[@name='PasswordDialogForm']/text[@name='eUserID']"
+			searchtimeout="30000ms">
+				/form[@name='PasswordDialogForm']/text[@name='eUserID']
+			</item>
+			<item
+			addcaps="text,nativewindow,delphielement"
+			capname="text"
+			id="545649a4-c9ef-4952-87b3-eeb0746924db"
+			name="EPassword"
+			refimgid="a7013ebf-e288-4350-84f7-fd48eabd3118"
+			refpath="/form[@name='PasswordDialogForm']/text[@name='ePassword']"
+			robustPath="/form[@name='PasswordDialogForm']/text[@name='ePassword']"
+			searchtimeout="30000ms">
+				/form[@name='PasswordDialogForm']/text[@name='ePassword']
+			</item>
+			<item
+			addcaps="button,nativewindow,delphielement"
+			capname="button"
+			id="a0b31b39-5ccd-4265-9e22-e2640849c5d5"
+			name="ButtonOK"
+			refimgid="47dd3863-0947-4520-ba48-300a2abad89c"
+			refpath="/form[@name='PasswordDialogForm']/button[@name='btnOK']"
+			robustPath="/form[@name='PasswordDialogForm']/button[@name='btnOK']"
+			searchtimeout="30000ms">
+				/form[@name='PasswordDialogForm']/button[@name='btnOK']
+			</item>
+			<basepath>
+				/form[@name='PasswordDialogForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAABTSURBVDhPYxhuYOWjEoZlD10Z4uYGMsTPKQVj
+IGDRtChFxgzGxqxg9Rhg+cM/QDyVIX72BoaEOf/BGAjYtKz+I2MGcT1usHoMMGrAqAFDFDAwAAAU
+qJ2ooboKGQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,delphiwindow"
+		capname="form"
+		id="9878914c-64c3-4427-a1c4-c2a119d4a3c4"
+		isrooted="True"
+		name="SelectCallCenter"
+		refpath="/form[@name='SelectCallCenterDialog']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="list,nativewindow,delphielement"
+			capname="list"
+			id="f4e4715d-6653-4283-8a60-949291cb5c75"
+			name="CallCenterListBox"
+			refimgid="c5ae1a38-675d-46f6-827e-a5c242ba286e"
+			refpath="/form[@name='SelectCallCenterDialog']/list[@name='CallCenterListBox']"
+			robustPath="/form[@name='SelectCallCenterDialog']/list[@name='CallCenterListBox']"
+			searchtimeout="30000ms">
+				/form[@name='SelectCallCenterDialog']/list[@name='CallCenterListBox']
+			</item>
+			<item
+			addcaps="button,nativewindow,delphielement"
+			capname="button"
+			id="c5b04a84-746e-48fb-acb4-6e248e7dfa19"
+			name="ButtonOK"
+			refimgid="3ea82467-df32-437b-8349-4344d17887ef"
+			refpath="/form[@name='SelectCallCenterDialog']/button[@name='OKButton']"
+			robustPath="/form[@name='SelectCallCenterDialog']/button[@name='OKButton']"
+			searchtimeout="30000ms">
+				/form[@name='SelectCallCenterDialog']/button[@name='OKButton']
+			</item>
+			<basepath>
+				/form[@name='SelectCallCenterDialog']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAABTSURBVDhPYxhuYOWjEoZlD10Z4uYGMsTPKQVj
+IGDRtChFxgzGxqxg9Rhg+cM/QDyVIX72BoaEOf/BGAjYtKz+I2MGcT1usHoMMGrAqAFDFDAwAAAU
+qJ2ooboKGQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,delphiwindow"
+		capname="form"
+		id="d8e0f9cb-ac86-4c6e-b3a4-124505e4599f"
+		isrooted="True"
+		name="LogistiCADArizona"
+		refpath="/form[@name='MainForm']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,delphielement"
+			capname="button"
+			id="5f46db43-6d11-4db4-bfbe-a91e2e6baad5"
+			name="ReservationsToolButton"
+			refimgid="d3140d0b-7a66-4062-ace8-e5f172fa09fc"
+			refpath="/form[@name='MainForm']/container[@name='Panel1']/toolbar[@name='LCADToolBar']/button[@name='ReservationsToolButton']"
+			robustPath="/form[@name='MainForm']//button[@name='ReservationsToolButton']"
+			searchtimeout="30000ms">
+				<image
+				guid="1b5d4bc4-0fb4-43f3-8ea7-e3770de2576d"
+				name="Screenshot1">
+					iVBORw0KGgoAAAANSUhEUgAAAB8AAAAeCAYAAADU8sWcAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAABNRJREFUSEvFl21MU1cYx6/z43BuZPHDsrjNyJZ9WNzMXl22ZGaT7cOM
+YJhkQYMuIzFjIpmJy0bIxBnGUCaCFlBxOgSlUCygBijLQGCRCLTaFtrSVggOhL7Q95ZC/7vPcffK
+hc5BhvEmv8DlPs//d87pvacXzmq14lEhyg0GA1pbW6FUKiGXy5ccyqV88ohyi8UCvV6Puro6aLVa
+uN1uTE1NLTmUS/nk0el0IC+Tq1Qq9Pf3IxQKIRAIwO/3LzmUS/kDAwPMx+RmsxkKhQJer/ehiQUo
+3+fzoba2FuTlBgcH2WdCo4rWYDaP4Pn4w4vi2Lm2qFkEechHXs5kMolyGpXAvp8u4fXPS/Fe6mn0
+jU2j568wWiwhXNQFkP2HD3uavP/K22lVWL9NxjJmZxKCnLyc0WhkJ8FgkC19XkkL1iXLcLR9HKd6
+PUi/asfHleOIPzOMTfnd+DCrGRv3VM/jox/bEV9iZLUCm8qH8MpnMvT1DbBsgjzkI69EfuVKF9Zu
+5UfcYkNi9SheOjHE2FFpgfI2cOBMF15LKo5KXrWa1aTJrWKfwJpEGcueJ6fnTpCvSy3HqiMmvFBk
+xoo8I+PpbzuQkdcAjR0ovGzA5vTfxFkIfH1Iya712oDduQ3YW3kLSoMfCdVjYg5lz5aTl6Nbn07o
+Tnw2QQYuWychJr0ZOed74AgCV03+qLN+d3spmgb90DuB/VVafJrbiqNdLqTW2cQcyvZ4PMxDPvJK
+5BtSShCzvfE+KY3g0ntR3ONH9zjQMQpc4pc2pxcoaDAwftYAcgvYklfzP7Ou+VkP9c7OouwHyjMP
+1WJlUg0e29WJmOR6xvvHrSjrB07ogCM3gUZLGK5gBKEZwD8dgTsUQdvINPLVERzkB5V1A9hQZBX7
+KYsyq2o72C4nkdPORif0DJYrrs97ZtPagS95drUBxTcCCIQj8IaBCX4Aw94IDK4ZqB0zKNf4WA2x
+k2dujsvlYpCHfOSVyIUCAWpKbMY9GkOw2kNw8DMd9kVwNxDBHX8EneMzuHA7DNlACNvqvWL9bOFs
+JHL6UnmQfGMjGCn1bibs52fq4WcuHLT8BfopfNUdQnyNU6z/Lzl5JfLJyUkJFLBeAcbWOjc0/PKq
+Rqf/0d4/sjVT+KAlgJfPOsR66p2bRyxKvqYKjDfL7Wi+M40Kcxgj/LLPPrb8HsBahQ+xx+6K9YuS
+077rdDolUEDsWTBWFDjwy3U3Cm6GkNMTxDV+BTp59v0ZQNwFD5781Y3H88bEeuqdm0eQZ56cdh+H
+wyGBApaXQeSZH4zIbHXjC5UPmxu8eKfajbhzLjxVOoll3+iw/PiUWEu9c/MI8ixYzhUGJMTu1+Ot
+/AG8UT6BuFNOPJFlxLKMW+AOuyR1i5bb7XYJiRkV4HL5LXIuB0bB7eUfFeL7oag11Ds3j1iw/KS8
+C89tr7onWASr01Uoqmibl0csWE5kHKzBqqTz4DL5WS6AlTsus55oWURUOW36NpstKlqtCVt2n+a/
+vcrwavJJvJhQgtWfFDLod/obXaOand9djJohQB6JnF4g6WagixMTEw8NyqfHjV4gRXlTU5P4zk5L
+E63x/0K5wrs7+UR5X18fm71arWaFVLTUUC7lk4d8opzQaDRsRPQfBX0mSw3lUj55BCf36A6O+xu5
+8nU8GJqvxQAAAABJRU5ErkJggg==
+				</image>
+				/form[@name='MainForm']/?/?/toolbar[@name='LCADToolBar']/button[@name='ReservationsToolButton']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="d70bbd1c-bf3a-4d5c-a50a-0bfdf9dc7b88"
+			name="Close"
+			refimgid="90b18f7a-826b-4dba-9a56-0d0730b193c9"
+			refpath="/form[@name='MainForm']/form/container[@name='Workspace']/form/titlebar/button[@automationid='Close']"
+			robustPath="/form[@name='MainForm']//form[@automationid='65280']/titlebar[@automationid='TitleBar']/button[@automationid='Close']"
+			searchtimeout="30000ms">
+				/form[@name='MainForm']/form[@name&gt;'TripResForm_ul0ieMVW9kODK']/?/?/form[@automationid='65280']/?/?/button[@automationid='Close']
+			</item>
+			<basepath>
+				/form[@name='MainForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAABTSURBVDhPYxhuYOWjEoZlD10Z4uYGMsTPKQVj
+IGDRtChFxgzGxqxg9Rhg+cM/QDyVIX72BoaEOf/BGAjYtKz+I2MGcT1usHoMMGrAqAFDFDAwAAAU
+qJ2ooboKGQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="f0045169-6d43-4962-aca2-02467d38043a"
+		isrooted="True"
+		name="LogistiCADExe"
+		refpath="/form[@title='LogistiCAD.exe']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="5746e2a2-4268-46ba-b576-f432c989dd7e"
+			name="ButtonOK"
+			refimgid="576d531f-0773-4ef7-94b9-871d81f2febc"
+			refpath="/form[@title='LogistiCAD.exe']/button[@text='OK' and @controlid='2']"
+			robustPath="/form[@title='LogistiCAD.exe']/button[@controlid='2']"
+			searchtimeout="30000ms">
+				<image
+				guid="87635b53-89c6-478d-b0c2-af818d0efdc9"
+				name="Screenshot1">
+					iVBORw0KGgoAAAANSUhEUgAAAEsAAAAXCAYAAABDArJmAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAq9JREFUWEft2UtPE1EAhuHzU4DoEsKmCy+Y+A8kAiG4gIUx0bgQNBoS
+doSLogliNIZYUeQ6AQsOV8WARgS0LfcGRVDjiqRjM9D95/na8YjtzM6pm7N4w5zLbJ50yuRUxGIx
+RFbW0DU2h9sD02jsHtc50YMu9KGTWIquorVvEs/ebuDltoU3P5I6J3rQhT6L0kl0mbPonY9h7nsS
+5pcDhD7v65zoQZe++S0EzTmI1t5JvNqxMSIXhz/pMqPLzK6Nlp4JCD6br78lMbRl6zyiD51SWDNf
+kzBits4j+iis6d0k+jdtnUf0UVhTctC7Yes8oo/Cmtg5QPd64v/0oAZCCNXRG9FD6wZOiwDOjafH
+18rlnnLj0Hpuoo/CGpP/Ip+sJXLeresBCVSDOjUXRVWxBCkznHEaq2pMXhNVzec2+iisF9sHCK4m
+clwUlcUBVJoZ82YzjkjAK6mxgVMSq9Lk399zuY8+CosvYJ3LP7N6GPWx0WYUiGpczlqLoKJIoKSD
+1wZKJFZBUQAVo5n7/MnNgT4Kiy9fbjfej/jYSDPyJdalrLUIyiRO2QivDZx0vsvyr0Yy9vmTmwN9
+FNbQ1r7rjffClo8N4oT81JwNZcyHmlKIF//a47HXh9wc6KOw+OLldmP7B39rqOMXfDUuqLkwSgsF
+8urCzngQxyVS6XN5fbcaorAJDWqvP7k50EdhDcgXL7cb7yz5X30twf68OuTVhg+tD+KYxDoznB6f
+L5V7JFi9Wv/3uTnQR2H1rNtoW7R0HtFHYXWv2WhdiOs8oo/CeioHLe/jOo/ok8LieVYwauHmgoWm
++bguI7o8XrbS51k8AeyY2URwhY+ihcZ3cZ0TPeiS8uFJKc+WecbcPr2Kzo97eLSc0DnRgy7qDF79
+umPOoq1/KvVs6tLRgy7pX3di+AV55d6+tmMcrQAAAABJRU5ErkJggg==
+				</image>
+				/form[@title='LogistiCAD.exe']/button[@controlid='2']
+			</item>
+			<basepath>
+				/form[@title='LogistiCAD.exe']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACJSURBVDhPYxhO4P9/RoYVj3YyrHxkxhA/ey5D
+/JxdDHGzF7FqWBixalruQsYMDPYsUF1IoP4/E8OKh38ZVjz2YkiYfZ0hYc5/oEF3mTXMXdm0rP7D
+sablPwYGY1aoLiQwasCwMACckB6uZVj60BiYiCYDNa8DGjSdVdVMH5h41iFj7AlpiAIGBgBtELAd
+hiyzGAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="e6eaab1d-c468-4ff6-a4c9-a1ef5cf669df"
+		isrooted="True"
+		name="LogistiCADSystem"
+		refpath="/form[@title='LogistiCAD System']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="50a2077a-880d-4702-a910-e0a9b86b49e4"
+			name="ButtonOK"
+			refimgid="bca7f049-3be7-4e12-9030-75d1cfd2fa38"
+			refpath="/form[@title='LogistiCAD System']/button[@text='OK']"
+			robustPath="/form[@title='LogistiCAD System']/button[@text='OK']"
+			searchtimeout="30000ms">
+				<image
+				guid="357f8df4-af1d-4d49-8403-20d559329d78"
+				name="Screenshot1">
+					iVBORw0KGgoAAAANSUhEUgAAAEsAAAAXCAYAAABDArJmAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAq9JREFUWEft2UtPE1EAhuHzU4DoEsKmCy+Y+A8kAiG4gIUx0bgQNBoS
+doSLogliNIZYUeQ6AQsOV8WARgS0LfcGRVDjiqRjM9D95/na8YjtzM6pm7N4w5zLbJ50yuRUxGIx
+RFbW0DU2h9sD02jsHtc50YMu9KGTWIquorVvEs/ebuDltoU3P5I6J3rQhT6L0kl0mbPonY9h7nsS
+5pcDhD7v65zoQZe++S0EzTmI1t5JvNqxMSIXhz/pMqPLzK6Nlp4JCD6br78lMbRl6zyiD51SWDNf
+kzBits4j+iis6d0k+jdtnUf0UVhTctC7Yes8oo/Cmtg5QPd64v/0oAZCCNXRG9FD6wZOiwDOjafH
+18rlnnLj0Hpuoo/CGpP/Ip+sJXLeresBCVSDOjUXRVWxBCkznHEaq2pMXhNVzec2+iisF9sHCK4m
+clwUlcUBVJoZ82YzjkjAK6mxgVMSq9Lk399zuY8+CosvYJ3LP7N6GPWx0WYUiGpczlqLoKJIoKSD
+1wZKJFZBUQAVo5n7/MnNgT4Kiy9fbjfej/jYSDPyJdalrLUIyiRO2QivDZx0vsvyr0Yy9vmTmwN9
+FNbQ1r7rjffClo8N4oT81JwNZcyHmlKIF//a47HXh9wc6KOw+OLldmP7B39rqOMXfDUuqLkwSgsF
+8urCzngQxyVS6XN5fbcaorAJDWqvP7k50EdhDcgXL7cb7yz5X30twf68OuTVhg+tD+KYxDoznB6f
+L5V7JFi9Wv/3uTnQR2H1rNtoW7R0HtFHYXWv2WhdiOs8oo/CeioHLe/jOo/ok8LieVYwauHmgoWm
++bguI7o8XrbS51k8AeyY2URwhY+ihcZ3cZ0TPeiS8uFJKc+WecbcPr2Kzo97eLSc0DnRgy7qDF79
+umPOoq1/KvVs6tLRgy7pX3di+AV55d6+tmMcrQAAAABJRU5ErkJggg==
+				</image>
+				/form[@title='LogistiCAD System']/button[@text='OK']
+			</item>
+			<basepath>
+				/form[@title='LogistiCAD System']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACJSURBVDhPYxhO4P9/RoYVj3YyrHxkxhA/ey5D
+/JxdDHGzF7FqWBixalruQsYMDPYsUF1IoP4/E8OKh38ZVjz2YkiYfZ0hYc5/oEF3mTXMXdm0rP7D
+sablPwYGY1aoLiQwasCwMACckB6uZVj60BiYiCYDNa8DGjSdVdVMH5h41iFj7AlpiAIGBgBtELAd
+hiyzGAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="e6279422-4a17-40dc-a2ab-495e8dbf46ee"
+		isrooted="True"
+		name="FormHash32770"
+		refpath="/form[@class='#32770']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@class='#32770']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAlFJREFUOE+lk+tLk2EYh/eX9CGipCIyCKLo4HHlzA8SVoR9KogkkKDM
+CKRCCwQtKUjtIJSdrKggqQ+CFZmHHGlzzrU552HqNnWbO7zHXT3bBLXQoG74fXvv63c9z8tj+O9p
+aDFz55WDmuYBqpp+cLnRzJnqTk5UdlNc8YWic60Ulr6koOTJshw8/RjjkXIMdc9tNLVrNLZp3GqV
+qX4dofJZkIpHs5Q3+Tl710fJ7UlO1o5zvNrN0SoXh644yS8zsyZtB4baZjN1bwLcfBvm4oMpTt1w
+U3zdybFrDg5ftVNYYaPg0iCmcisHLgxgLLOQe95CRmk369KNGGoaXuAPxAhHNeZFQhGVYFghIDIb
+SsUbUPDMyLi9Mg6PhHVMosvqYePW7QJQ38JqE4+DokJEijMX0ZkKaoz6VSwuLxs2b8Nw/+n7hU//
+HE0HSYkzH9OZmdeYnNNw+xR+Tir0DP0FoItmWSwnm8M606J5TDQ7pxSs4zKd1tUACW1NLMtxglEd
+X0hjYlbD5VWwTSj0j8h8tgjAphUAi+pxZsRySl3FLtQtozK9wxLtfSsAkupqQl1PqQdS6o6kusJ3
+l0yXQ6LNnACkLwckb1yDqDh3YKn6dEq9zy3R45TosMX40PsbQOyiLqiHhLo/eesqIwl1z6L6V3uM
+T9Yo73q8rE8A7i0xEOVI4p+HYggATMyByxdnyKPRP6rxbVilw67wcVBOAtambRFvof4hufvzyTGa
+yBbJEskUycg1sS/HxN7sPPaI7M7KY1dmKjszUsnJL2LhTf7rGAy/AP7X5rYY5FLEAAAAAElFTkSu
+QmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

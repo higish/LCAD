@@ -1,0 +1,561 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LCAD</name>
+    </assembly>
+    <members>
+        <member name="T:LCAD.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:LCAD.CloseAUT.repo">
+            <summary>
+            Holds an instance of the LCADRepository repository.
+            </summary>
+        </member>
+        <member name="M:LCAD.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:LCAD.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:LCAD.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:LCAD.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:LCAD.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:LCAD.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:LCAD.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:LCAD.CreateReservation">
+             <summary>
+            The CreateReservation recording.
+             </summary>
+        </member>
+        <member name="F:LCAD.CreateReservation.repo">
+            <summary>
+            Holds an instance of the LCADRepository repository.
+            </summary>
+        </member>
+        <member name="M:LCAD.CreateReservation.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:LCAD.CreateReservation.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:LCAD.CreateReservation.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:LCAD.CreateReservation.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:LCAD.CreateReservation.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:LCAD.CreateReservation.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:LCAD.LCADRepository">
+            <summary>
+            The class representing the LCADRepository element repository.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the LCADRepository element repository.
+            </summary>
+        </member>
+        <member name="M:LCAD.LCADRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepository.LogistiCADLogin">
+            <summary>
+            The LogistiCADLogin folder.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepository.SelectCallCenter">
+            <summary>
+            The SelectCallCenter folder.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepository.LogistiCADArizona">
+            <summary>
+            The LogistiCADArizona folder.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepository.LogistiCADExe">
+            <summary>
+            The LogistiCADExe folder.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepository.LogistiCADSystem">
+            <summary>
+            The LogistiCADSystem folder.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepository.FormHash32770">
+            <summary>
+            The FormHash32770 folder.
+            </summary>
+        </member>
+        <member name="T:LCAD.LCADRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:LCAD.LCADRepositoryFolders.LogistiCADLoginAppFolder">
+            <summary>
+            The LogistiCADLoginAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:LCAD.LCADRepositoryFolders.LogistiCADLoginAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LogistiCADLogin  folder.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepositoryFolders.LogistiCADLoginAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepositoryFolders.LogistiCADLoginAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepositoryFolders.LogistiCADLoginAppFolder.EUserID">
+            <summary>
+            The EUserID item.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepositoryFolders.LogistiCADLoginAppFolder.EUserIDInfo">
+            <summary>
+            The EUserID item info.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepositoryFolders.LogistiCADLoginAppFolder.EPassword">
+            <summary>
+            The EPassword item.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepositoryFolders.LogistiCADLoginAppFolder.EPasswordInfo">
+            <summary>
+            The EPassword item info.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepositoryFolders.LogistiCADLoginAppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepositoryFolders.LogistiCADLoginAppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="T:LCAD.LCADRepositoryFolders.SelectCallCenterAppFolder">
+            <summary>
+            The SelectCallCenterAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:LCAD.LCADRepositoryFolders.SelectCallCenterAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SelectCallCenter  folder.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepositoryFolders.SelectCallCenterAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepositoryFolders.SelectCallCenterAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepositoryFolders.SelectCallCenterAppFolder.CallCenterListBox">
+            <summary>
+            The CallCenterListBox item.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepositoryFolders.SelectCallCenterAppFolder.CallCenterListBoxInfo">
+            <summary>
+            The CallCenterListBox item info.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepositoryFolders.SelectCallCenterAppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepositoryFolders.SelectCallCenterAppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="T:LCAD.LCADRepositoryFolders.LogistiCADArizonaAppFolder">
+            <summary>
+            The LogistiCADArizonaAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:LCAD.LCADRepositoryFolders.LogistiCADArizonaAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LogistiCADArizona  folder.
+            </summary>
+        </member>
+        <member name="T:LCAD.LCADRepositoryFolders.LogistiCADArizonaAppFolder.ReservationsToolButtonInfoClass">
+            <summary>
+            The ReservationsToolButtonInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:LCAD.LCADRepositoryFolders.LogistiCADArizonaAppFolder.ReservationsToolButtonInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            ReservationsToolButtonInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:LCAD.LCADRepositoryFolders.LogistiCADArizonaAppFolder.ReservationsToolButtonInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:LCAD.LCADRepositoryFolders.LogistiCADArizonaAppFolder.ReservationsToolButtonInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="P:LCAD.LCADRepositoryFolders.LogistiCADArizonaAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepositoryFolders.LogistiCADArizonaAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepositoryFolders.LogistiCADArizonaAppFolder.ReservationsToolButton">
+            <summary>
+            The ReservationsToolButton item.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepositoryFolders.LogistiCADArizonaAppFolder.ReservationsToolButtonInfo">
+            <summary>
+            The ReservationsToolButton item info.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepositoryFolders.LogistiCADArizonaAppFolder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepositoryFolders.LogistiCADArizonaAppFolder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="T:LCAD.LCADRepositoryFolders.LogistiCADExeAppFolder">
+            <summary>
+            The LogistiCADExeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:LCAD.LCADRepositoryFolders.LogistiCADExeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LogistiCADExe  folder.
+            </summary>
+        </member>
+        <member name="T:LCAD.LCADRepositoryFolders.LogistiCADExeAppFolder.ButtonOKInfoClass">
+            <summary>
+            The ButtonOKInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:LCAD.LCADRepositoryFolders.LogistiCADExeAppFolder.ButtonOKInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            ButtonOKInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:LCAD.LCADRepositoryFolders.LogistiCADExeAppFolder.ButtonOKInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:LCAD.LCADRepositoryFolders.LogistiCADExeAppFolder.ButtonOKInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="P:LCAD.LCADRepositoryFolders.LogistiCADExeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepositoryFolders.LogistiCADExeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepositoryFolders.LogistiCADExeAppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepositoryFolders.LogistiCADExeAppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="T:LCAD.LCADRepositoryFolders.LogistiCADSystemAppFolder">
+            <summary>
+            The LogistiCADSystemAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:LCAD.LCADRepositoryFolders.LogistiCADSystemAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LogistiCADSystem  folder.
+            </summary>
+        </member>
+        <member name="T:LCAD.LCADRepositoryFolders.LogistiCADSystemAppFolder.ButtonOKInfoClass">
+            <summary>
+            The ButtonOKInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:LCAD.LCADRepositoryFolders.LogistiCADSystemAppFolder.ButtonOKInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            ButtonOKInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:LCAD.LCADRepositoryFolders.LogistiCADSystemAppFolder.ButtonOKInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:LCAD.LCADRepositoryFolders.LogistiCADSystemAppFolder.ButtonOKInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="P:LCAD.LCADRepositoryFolders.LogistiCADSystemAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepositoryFolders.LogistiCADSystemAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepositoryFolders.LogistiCADSystemAppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepositoryFolders.LogistiCADSystemAppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="T:LCAD.LCADRepositoryFolders.FormHash32770AppFolder">
+            <summary>
+            The FormHash32770AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:LCAD.LCADRepositoryFolders.FormHash32770AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FormHash32770  folder.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepositoryFolders.FormHash32770AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:LCAD.LCADRepositoryFolders.FormHash32770AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:LCAD.SelectCallCenter">
+             <summary>
+            The SelectCallCenter recording.
+             </summary>
+        </member>
+        <member name="F:LCAD.SelectCallCenter.repo">
+            <summary>
+            Holds an instance of the LCADRepository repository.
+            </summary>
+        </member>
+        <member name="M:LCAD.SelectCallCenter.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:LCAD.SelectCallCenter.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:LCAD.SelectCallCenter.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:LCAD.SelectCallCenter.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:LCAD.SelectCallCenter.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:LCAD.SelectCallCenter.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:LCAD.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:LCAD.StartAUT.repo">
+            <summary>
+            Holds an instance of the LCADRepository repository.
+            </summary>
+        </member>
+        <member name="M:LCAD.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:LCAD.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:LCAD.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:LCAD.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:LCAD.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:LCAD.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:LCAD.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:LCAD.UserAuthentication">
+             <summary>
+            The UserAuthentication recording.
+             </summary>
+        </member>
+        <member name="F:LCAD.UserAuthentication.repo">
+            <summary>
+            Holds an instance of the LCADRepository repository.
+            </summary>
+        </member>
+        <member name="M:LCAD.UserAuthentication.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:LCAD.UserAuthentication.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:LCAD.UserAuthentication.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:LCAD.UserAuthentication.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:LCAD.UserAuthentication.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:LCAD.UserAuthentication.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>
