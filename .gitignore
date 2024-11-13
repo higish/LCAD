@@ -1,47 +1,62 @@
+# ---------------------------------------
 # Build Artifacts and Temporary Files
-bin/
-obj/
+# ---------------------------------------
+LCAD/bin/
+LCAD/obj/
 *.exe
 *.dll
 *.pdb
 *.cache
 *.tmp
 
+# ---------------------------------------
 # Ranorex Logs and Reports
-Reports/
-*.rxlog
-*.rxzlog
-*.rxlog.data/
-*.rxsln.data
+# ---------------------------------------
+LCAD/Reports/
+LCAD/*.rxlog
+LCAD/*.rxzlog
+LCAD/*.rxlog.data/
+LCAD/*.rxsln.data
 
+# ---------------------------------------
 # Test Result Files
-*.trx
-*.tst
-TestResult.xml
+# ---------------------------------------
+LCAD/*.trx
+LCAD/*.tst
+LCAD/TestResult.xml
 
+# ---------------------------------------
 # User-Specific and Environment-Specific Files
-*.user
-*.suo
-*.vscode/
-*.vs/
-*.config
+# ---------------------------------------
+LCAD/*.user
+LCAD/*.suo
+LCAD/.vscode/
+LCAD/.vs/
+LCAD/*.config
 
+# ---------------------------------------
 # Ranorex Solution Specific Files
-project.proj.FileListAbsolute.txt
-TestSuite.rxlock
-RanorexLicense.config
+# ---------------------------------------
+LCAD/project.proj.FileListAbsolute.txt
+LCAD/TestSuite.rxlock
+LCAD/RanorexLicense.config
 
-# Ignore temporary and backup files in Repository Images
-RepositoryImages/*.bak
-RepositoryImages/*.tmp
-RepositoryImages/*.old
+# ---------------------------------------
+# Repository Images (Selective Ignoring)
+# ---------------------------------------
+# Ignore temporary and backup files
+LCAD/RepositoryImages/*.bak
+LCAD/RepositoryImages/*.tmp
+LCAD/RepositoryImages/*.old
 
 # Do not ignore actual image files used for test automation
-!RepositoryImages/*.png
-!RepositoryImages/*.jpg
-!RepositoryImages/*.bmp
+!LCAD/RepositoryImages/*.png
+!LCAD/RepositoryImages/*.jpg
+!LCAD/RepositoryImages/*.bmp
 
+# ---------------------------------------
 # Other Temporary Files and Backups
+# ---------------------------------------
 *.log
 *.bak
 *.old
