@@ -33,6 +33,7 @@ LCAD/*.suo
 LCAD/.vscode/
 LCAD/.vs/
 LCAD/*.config
+LCAD.sln.pref
 
 # ---------------------------------------
 # Ranorex Solution Specific Files
