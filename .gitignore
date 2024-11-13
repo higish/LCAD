@@ -2,3 +2,5 @@ LCAD/bin
 LCAD/obj
 LCAD/Reports
 LCAD/RepositoryImages
+
+*.rxuser
