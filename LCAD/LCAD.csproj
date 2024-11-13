@@ -126,30 +126,6 @@
     <Compile Include="AssemblyInfo.cs">
       <id>67a98b34-3c54-4e40-9457-250f5d3a6647</id>
     </Compile>
-    <Compile Include="CloseAUT.cs">
-      <BoundTo>c45efae2-f134-4cba-a1b3-c7973fdc6b23</BoundTo>
-      <DependentUpon>CloseAUT.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>decd86f0-6353-42fd-a42e-c2ba8fa3d692</id>
-    </Compile>
-    <Compile Include="CloseAUT.UserCode.cs">
-      <BoundTo>c45efae2-f134-4cba-a1b3-c7973fdc6b23</BoundTo>
-      <DependentUpon>CloseAUT.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>d05b829a-5aaf-4eae-af96-7d17147bdff9</id>
-    </Compile>
-    <Compile Include="CreateReservation.cs">
-      <BoundTo>1128524f-ed5a-4c37-8202-270ea0f46851</BoundTo>
-      <DependentUpon>CreateReservation.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>f373ee67-64b0-45d9-bb78-4c6cee36155f</id>
-    </Compile>
-    <Compile Include="CreateReservation.UserCode.cs">
-      <BoundTo>1128524f-ed5a-4c37-8202-270ea0f46851</BoundTo>
-      <DependentUpon>CreateReservation.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>d5cda16b-0e8a-4508-a610-ddf5522c0837</id>
-    </Compile>
     <Compile Include="LCADRepository.cs">
       <BoundTo>89780dc0-3910-4b12-a489-e010686463c9</BoundTo>
       <DependentUpon>LCADRepository.rxrep</DependentUpon>
@@ -159,56 +135,70 @@
     <Compile Include="Program.cs">
       <id>1cce3def-9155-4e11-b895-a5e1aa860fd8</id>
     </Compile>
-    <Compile Include="SelectCallCenter.cs">
-      <BoundTo>137c68da-918e-4920-9f00-1fa7661dedca</BoundTo>
+    <Compile Include="Recordings\CloseAUT.cs">
+      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>decd86f0-6353-42fd-a42e-c2ba8fa3d692</id>
+      <BoundTo>c45efae2-f134-4cba-a1b3-c7973fdc6b23</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\CloseAUT.UserCode.cs">
+      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d05b829a-5aaf-4eae-af96-7d17147bdff9</id>
+      <BoundTo>c45efae2-f134-4cba-a1b3-c7973fdc6b23</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\CreateReservation.cs">
+      <DependentUpon>CreateReservation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f373ee67-64b0-45d9-bb78-4c6cee36155f</id>
+      <BoundTo>1128524f-ed5a-4c37-8202-270ea0f46851</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\CreateReservation.UserCode.cs">
+      <DependentUpon>CreateReservation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d5cda16b-0e8a-4508-a610-ddf5522c0837</id>
+      <BoundTo>1128524f-ed5a-4c37-8202-270ea0f46851</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\SelectCallCenter.cs">
       <DependentUpon>SelectCallCenter.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>a26f9752-9eb3-4044-bce8-f084a65086ba</id>
-    </Compile>
-    <Compile Include="SelectCallCenter.UserCode.cs">
       <BoundTo>137c68da-918e-4920-9f00-1fa7661dedca</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\SelectCallCenter.UserCode.cs">
       <DependentUpon>SelectCallCenter.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>e97c35d7-b062-417a-a957-cd8d9b1123dc</id>
+      <BoundTo>137c68da-918e-4920-9f00-1fa7661dedca</BoundTo>
     </Compile>
-    <Compile Include="StartAUT.cs">
-      <BoundTo>fc95528b-5669-4f61-a095-cf7906e8afa2</BoundTo>
+    <Compile Include="Recordings\StartAUT.cs">
       <DependentUpon>StartAUT.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>e66a8549-665f-4fa1-a304-2cac5690bfaa</id>
-    </Compile>
-    <Compile Include="StartAUT.UserCode.cs">
       <BoundTo>fc95528b-5669-4f61-a095-cf7906e8afa2</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\StartAUT.UserCode.cs">
       <DependentUpon>StartAUT.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>fe9933b0-0a34-457e-bb11-2c393b475eed</id>
+      <BoundTo>fc95528b-5669-4f61-a095-cf7906e8afa2</BoundTo>
     </Compile>
-    <Compile Include="UserAuthentication.cs">
-      <BoundTo>aeebf552-abb3-42c1-98d9-a616201d1ae4</BoundTo>
+    <Compile Include="Recordings\UserAuthentication.cs">
       <DependentUpon>UserAuthentication.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>1e47921f-d06f-4419-9ac2-a9e80efb06c9</id>
-    </Compile>
-    <Compile Include="UserAuthentication.UserCode.cs">
       <BoundTo>aeebf552-abb3-42c1-98d9-a616201d1ae4</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\UserAuthentication.UserCode.cs">
       <DependentUpon>UserAuthentication.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>b8325838-7df7-448c-a781-4ba517f8fff2</id>
+      <BoundTo>aeebf552-abb3-42c1-98d9-a616201d1ae4</BoundTo>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config">
       <id>39932d7d-2557-4ef1-8565-06b9ebf546ea</id>
-    </None>
-    <None Include="CloseAUT.rxrec">
-      <BoundTo>89780dc0-3910-4b12-a489-e010686463c9</BoundTo>
-      <id>c45efae2-f134-4cba-a1b3-c7973fdc6b23</id>
-      <recordtableid>f74f8bb3-17e7-403e-b004-d68b676fa825</recordtableid>
-    </None>
-    <None Include="CreateReservation.rxrec">
-      <BoundTo>89780dc0-3910-4b12-a489-e010686463c9</BoundTo>
-      <id>1128524f-ed5a-4c37-8202-270ea0f46851</id>
-      <recordtableid>87f31820-c612-4487-bfa2-1ea018621d6b</recordtableid>
     </None>
     <None Include="LCADRepository.rximg">
       <BoundTo>89780dc0-3910-4b12-a489-e010686463c9</BoundTo>
@@ -221,17 +211,27 @@
       <repoid>b10e19a6-8cbe-4f86-823b-b6b52ad93c75</repoid>
       <reporootid>39f306a8-e45c-4e69-8c5d-bcf88565fcc3</reporootid>
     </None>
-    <None Include="SelectCallCenter.rxrec">
+    <None Include="Recordings\CloseAUT.rxrec">
+      <BoundTo>89780dc0-3910-4b12-a489-e010686463c9</BoundTo>
+      <id>c45efae2-f134-4cba-a1b3-c7973fdc6b23</id>
+      <recordtableid>f74f8bb3-17e7-403e-b004-d68b676fa825</recordtableid>
+    </None>
+    <None Include="Recordings\CreateReservation.rxrec">
+      <BoundTo>89780dc0-3910-4b12-a489-e010686463c9</BoundTo>
+      <id>1128524f-ed5a-4c37-8202-270ea0f46851</id>
+      <recordtableid>87f31820-c612-4487-bfa2-1ea018621d6b</recordtableid>
+    </None>
+    <None Include="Recordings\SelectCallCenter.rxrec">
       <BoundTo>89780dc0-3910-4b12-a489-e010686463c9</BoundTo>
       <id>137c68da-918e-4920-9f00-1fa7661dedca</id>
       <recordtableid>38230864-b639-441a-815b-e1853b6b50c4</recordtableid>
     </None>
-    <None Include="StartAUT.rxrec">
+    <None Include="Recordings\StartAUT.rxrec">
       <BoundTo>89780dc0-3910-4b12-a489-e010686463c9</BoundTo>
       <id>fc95528b-5669-4f61-a095-cf7906e8afa2</id>
       <recordtableid>d9683444-834c-4353-9666-428228c90cf1</recordtableid>
     </None>
-    <None Include="UserAuthentication.rxrec">
+    <None Include="Recordings\UserAuthentication.rxrec">
       <BoundTo>89780dc0-3910-4b12-a489-e010686463c9</BoundTo>
       <id>aeebf552-abb3-42c1-98d9-a616201d1ae4</id>
       <recordtableid>a234d946-8019-4630-b201-6611febf6856</recordtableid>
@@ -246,6 +246,11 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>9705935c-8983-4f92-ac5a-35907700e3dc</id>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Recordings">
+      <id>6fc8db7d-1bf7-440d-a6eb-165abf44350a</id>
+    </Folder>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
