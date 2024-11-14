@@ -33,6 +33,7 @@ LCAD/*.suo
 LCAD/.vscode/
 LCAD/.vs/
 LCAD/*.config
+*.rxsln.pref
 LCAD.sln.pref
 LCAD/LCAD.csproj.pref
 LCAD/LCAD.csproj.rxuser
