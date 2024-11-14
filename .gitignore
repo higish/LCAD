@@ -34,6 +34,8 @@ LCAD/.vscode/
 LCAD/.vs/
 LCAD/*.config
 LCAD.sln.pref
+LCAD/LCAD.csproj.pref
+LCAD/LCAD.csproj.rxuser
 
 # ---------------------------------------
 # Ranorex Solution Specific Files
